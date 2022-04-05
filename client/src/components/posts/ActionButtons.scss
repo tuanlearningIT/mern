@@ -1,0 +1,12 @@
+.post-btn-delete,.post-btn-play,.post-btn-edit {
+    background-color: #fff;
+    border          : none;
+    &:hover{
+        background-color: #fff;
+        border-color          : none;  
+    }
+    &:focus{
+        border-color: none;
+    }
+}
+

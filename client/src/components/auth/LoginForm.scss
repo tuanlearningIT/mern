@@ -1,0 +1,63 @@
+.login-container {
+    background-color: #c08790;
+    width           : 25%;
+    position        : absolute;
+    left            : 50%;
+    transform       : translate(-50%, -50%);
+    border-radius   : 10px;
+    color           : white;
+
+    .login-header {
+        font-size  : 30px;
+        font-weight: 600;
+    }
+
+    form {
+        a {
+            color          : #eee;
+            text-decoration: none;
+
+        }
+
+        input.form-control:focus {
+            border    : 2px solid #0079bf;
+            box-shadow: none;
+        }
+
+        .btn-login {
+            font-weight: 600;
+
+            &:focus {
+                border    : none;
+                box-shadow: none;
+            }
+        }
+
+        .btn-registers {
+            display        : flex;
+            justify-content: center;
+        }
+
+        .btn-register {
+            font-weight: 600;
+        }
+
+        .eye {
+            float       : right;
+            margin-top  : -33px;
+            color       : #333;
+            margin-right: 10px;
+            font-size   : 17px;
+            cursor      : pointer;
+        }
+
+        span {
+            float       : right;
+            margin-top  : -31px;
+            color       : #333;
+            margin-right: 10px;
+            font-size   : 17px;
+        }
+
+    }
+}

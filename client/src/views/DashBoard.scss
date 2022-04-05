@@ -1,0 +1,8 @@
+button.float-end.me-3.mt-3.btn.btn-primary {
+    background-color: #fff;
+    border          : none;
+
+    &:focus {
+        box-shadow: none;
+    }
+}
